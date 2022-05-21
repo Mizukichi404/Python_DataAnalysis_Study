@@ -1,0 +1,21 @@
+#mysqlclientインストール
+pip install mysqlclient
+
+#サービス開始
+>コマンドプロンプト
+net start mysql57
+
+#ログイン
+>コマンドプロンプト
+mysql --user=root --password
+
+#mysqlパスワード変更
+FLUSH PRIVILEGES;
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'new_password';
+FLUSH PRIVILEGES;
+
+#Qiita_よく使うコマンド
+https://qiita.com/CyberMergina/items/f889519e6be19c46f5f4
+
+#データの保存先を確認する
+SELECT @@datadir;
