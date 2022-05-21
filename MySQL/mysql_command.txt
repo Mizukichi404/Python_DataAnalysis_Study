@@ -16,6 +16,7 @@ FLUSH PRIVILEGES;
 
 #Qiita_よく使うコマンド
 https://qiita.com/CyberMergina/items/f889519e6be19c46f5f4
+https://qiita.com/maruyama42/items/a692edac9f5aa4b64786
 
 #データの保存先を確認する
 SELECT @@datadir;
